@@ -2,19 +2,28 @@
 <html>
   <head>
     <title>LinkinBio</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/4d365f4de5.js" crossorigin="anonymous"></script>
+
+
     <style>
+    
+
+      .background-image { background-image: url(https://media.istockphoto.com/id/629391430/photo/matrix.jpg?s=612x612&w=0&k=20&c=AVUS7BKLU9qYwXdC-A2HI6YwnesFzl2WMWc3bNyfOFw=); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 
       .items{ display: flex; flex-direction: column; gap: 30px; max-width: 640px; flex-grow: 1; }
 
-      body { padding-top: 40px; padding-bottom: 40px; background-color: black; display: flex; justify-content: center;}
+      body { padding-top: 40px; padding-bottom: 40px; display: flex; justify-content: center;}
 
-      .name { color: whitesmoke; text-decoration: none; display: flex; justify-content: center;}
+      .name { color: whitesmoke; text-decoration: none; display: flex; justify-content: center; font-size: x-large;}
 
-      .link {background-color: darkgreen; display: flex; align-items: center; padding: 5px;}
+      .link {background-color: black; display: flex; align-items: center; padding: 5px;}
 
       .link a{color: burlywood; text-decoration: none; text-align: center; flex-grow: 1;}
 
-      .banner-image { width: 128px; height: 128px; object-fit: cover; border-radius: 128px; }
+      .banner-image { width: 128px; height: 128px; object-fit: cover; border-radius: 128px; border-color: green;}
 
       .thumbnail{ height: 48px; width: 48px; object-fit: cover; border-radius: 48px;}
 
@@ -22,10 +31,12 @@
 
       .social-icons{ display: flex; justify-content: space-around;}
 
+      
+
     </style>
 
   </head>
-  <body>
+  <body class="background-image">
     <div class="items">
     <div class="banner">                                                     
       <img class="banner-image" src="/thumbnails/IMG_0396.jpeg" alt="Code wall image">
@@ -35,10 +46,14 @@
       Ismael Gonzalez
     
     </div>
+    
 
     <div class="social-icons">
-      <a href="https://www.facebook.com/ismael.gonzalez.900" target="_blank">facebook</a>
-      <a href="https://github.com/GONZCORP" target="_blank">Github</a>  <a href="https://discord.gg/wMYReY4F" target="_blank">Discord</a>
+
+      <a href="https://www.facebook.com/ismael.gonzalez.900" <i class="fa-brands fa-facebook-square fa-lg" style="color: #d6d6d6;" target="_blank"></a>
+
+      <a href="https://github.com/GONZCORP" class="fa-brands fa-github-square fa-lg" style="color:aliceblue" target="_blank"></a>  <a href="https://discord.gg/wMYReY4F" class="fa-brands fa-discord fa-lg" style="color: #ebebeb;" target="_blank"></a>
+
     </div>  <div class="link"> <img class="thumbnail" alt="Chatgptlogo" src="https://assets.entrepreneur.com/content/3x2/2000/1676389589-GettyImages-1247068336.jpg?format=pjeg&auto=webp&crop=16:9&width=675&height=380"> <a  target="_blank" href="https://chat.openai.com/auth/login">Use CHATGPT AI</a></div>
     <div class="link"> <img class="thumbnail"alt="Image of a laptop" src="https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png"> <a target="_blank" href="https://dev.to/">Developer Blogs</a></div>
     <div class="link">  <img class="thumbnail" alt="codeacademy logo" src="https://www.sheerid.com/shoppers/wp-content/uploads/sites/4/2021/05/codecademy-thumb-467x316.png">. <a target="_blank" href="https://www.codecademy.com/">learn to code!</a>    </div>
